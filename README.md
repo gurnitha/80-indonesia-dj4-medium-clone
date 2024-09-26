@@ -28,3 +28,13 @@ Lokal:C:\Users\ING\Desktop\workspace\80-indonesia-dj5-medium-clone
         │   ├── urls.py
         │   └── wsgi.py
         └── manage.py
+
+#### 2. Merestrukturisasi struktur proyek
+
+        modified:   README.md
+        renamed:    config/config/__init__.py -> config/__init__.py
+        renamed:    config/config/asgi.py -> config/asgi.py
+        renamed:    config/config/settings.py -> config/settings.py
+        renamed:    config/config/urls.py -> config/urls.py
+        renamed:    config/config/wsgi.py -> config/wsgi.py
+        renamed:    config/manage.py -> manage.py
