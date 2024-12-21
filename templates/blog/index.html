@@ -1,18 +1,8 @@
 <!-- templates/blog/index.html -->
+{% extends 'base.html' %}
 {% load static %}
-<!doctype html>
-<html lang="tr">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MD Clone</title>
-    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-</head>
-<body>
-    <!--===================== Navbar =====================-->
-    {% include 'inc/navbar.html' %}
-    <!--===================== Navbar end =================-->
+
+{% block content %}
 
     <!--====================== Hero ======================-->
     {% include 'components/hero.html' %}
@@ -26,23 +16,4 @@
     {% include 'components/posts_latest.html' %}
     <!--===================== Posts latest end ===========-->
 
-    <!-- Scripts -->
-    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
-    <script src="{% static 'js/axios.min.js' %}"></script>
-    <script>
-        const items = document.querySelectorAll("[data-post-slug]");
-        
-        items.forEach(item => item.addEventListener('click', event => {
-            const slug = event.target.getAttribute('data-post-slug');
-        
-            if (slug) {
-                let form = new FormData()
-                form.append('slug', slug)
-                form.append('csrfmiddlewaretoken', 'zZdZ0cOipLVBQXvatL5elWnO49kBfDeX6fp4Ok4BRXjssMemdjnQdO6fB449V881')
-        
-                axios.post('/blog/fav-update/', form).then(res => console.log(res)).catch(err => console.error(err))
-            }
-        }))
-    </script>
-</body>
-</html>
+{% endblock %}

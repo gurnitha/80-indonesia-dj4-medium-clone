@@ -106,3 +106,9 @@ Lokal:C:\Users\ING\Desktop\workspace\80-indonesia-dj5-medium-clone
         new file:   templates/components/posts_latest.html
         new file:   templates/components/posts_trend.html
         new file:   templates/inc/navbar.html
+
+#### 10. Membuat base tamplate
+
+        modified:   README.md
+        new file:   templates/base.html
+        modified:   templates/blog/index.html
