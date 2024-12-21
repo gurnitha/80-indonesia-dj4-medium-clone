@@ -64,3 +64,14 @@ Lokal:C:\Users\ING\Desktop\workspace\80-indonesia-dj5-medium-clone
 
         modified:   README.md
         modified:   config/settings.py
+
+#### 6. Halo Dunia! - urls, views, templates
+
+        modified:   README.md
+        new file:   apps/blog/urls.py
+        modified:   apps/blog/views.py
+        modified:   config/settings.py
+        modified:   config/urls.py
+        new file:   templates/blog/index.html
+
+        :)
