@@ -49,3 +49,18 @@ Lokal:C:\Users\ING\Desktop\workspace\80-indonesia-dj5-medium-clone
         new file:   apps/blog/models.py
         new file:   apps/blog/tests.py
         new file:   apps/blog/views.py
+
+#### 4. Mendefinisikan path untuk aplikasi pada proyek
+
+        # settings.py
+        import os, sys
+        APPS_DIR = os.path.join(BASE_DIR, 'apps')
+        sys.path.insert(0, APPS_DIR)
+
+        modified:   README.md
+        modified:   config/settings.py
+
+#### 5. Register aplikasi blog pada proyek
+
+        modified:   README.md
+        modified:   config/settings.py
