@@ -75,3 +75,8 @@ Lokal:C:\Users\ING\Desktop\workspace\80-indonesia-dj5-medium-clone
         new file:   templates/blog/index.html
 
         :)
+
+#### 7. Added html template to home page
+
+        modified:   README.md
+        modified:   templates/blog/index.html
