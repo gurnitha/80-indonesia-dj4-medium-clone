@@ -38,3 +38,14 @@ Lokal:C:\Users\ING\Desktop\workspace\80-indonesia-dj5-medium-clone
         renamed:    config/config/urls.py -> config/urls.py
         renamed:    config/config/wsgi.py -> config/wsgi.py
         renamed:    config/manage.py -> manage.py
+
+#### 3. Membuat apliksi blog di dalam folder apps
+
+        modified:   README.md
+        new file:   apps/blog/__init__.py
+        new file:   apps/blog/admin.py
+        new file:   apps/blog/apps.py
+        new file:   apps/blog/migrations/__init__.py
+        new file:   apps/blog/models.py
+        new file:   apps/blog/tests.py
+        new file:   apps/blog/views.py
