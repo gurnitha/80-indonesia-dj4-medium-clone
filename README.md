@@ -112,3 +112,9 @@ Lokal:C:\Users\ING\Desktop\workspace\80-indonesia-dj5-medium-clone
         modified:   README.md
         new file:   templates/base.html
         modified:   templates/blog/index.html
+
+#### 11. Membuat page title dinamis
+
+        modified:   README.md
+        modified:   templates/base.html
+        modified:   templates/blog/index.html
