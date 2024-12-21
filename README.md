@@ -97,3 +97,12 @@ Lokal:C:\Users\ING\Desktop\workspace\80-indonesia-dj5-medium-clone
         modified:   templates/blog/index.html
 
         :)
+
+#### 9. Membuat template inheritance
+
+        modified:   README.md
+        modified:   templates/blog/index.html
+        new file:   templates/components/hero.html
+        new file:   templates/components/posts_latest.html
+        new file:   templates/components/posts_trend.html
+        new file:   templates/inc/navbar.html
