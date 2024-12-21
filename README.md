@@ -80,3 +80,20 @@ Lokal:C:\Users\ING\Desktop\workspace\80-indonesia-dj5-medium-clone
 
         modified:   README.md
         modified:   templates/blog/index.html
+
+#### 8. Added and loaded static files
+
+        modified:   config/settings.py
+        new file:   static/css/bootstrap.min.css
+        new file:   static/css/bootstrap.min.css.map
+        new file:   static/css/style.css
+        new file:   static/css/tagify.css
+        new file:   static/js/axios.min.js
+        new file:   static/js/bootstrap.bundle.min.js
+        new file:   static/js/bootstrap.bundle.min.js.map
+        new file:   static/js/tagify.js
+        new file:   static/js/tagify.polyfills.min.js
+        new file:   static/js/tinymce.min.js
+        modified:   templates/blog/index.html
+
+        :)
